@@ -1,10 +1,10 @@
-*{
+* {
     margin: 0;
     bottom: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     width: 100%;
     height: 100vh;
     background-image: url(./images/background_image.jpg);
@@ -12,7 +12,8 @@ body{
     justify-content: center;
     align-items: center;
 }
-.container{
+
+.container {
     width: 25%;
     height: 80%;
     display: flex;
@@ -23,7 +24,8 @@ body{
     border-radius: 10px;
     color: antiquewhite;
 }
-.header{
+
+.header {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -31,25 +33,30 @@ body{
     flex-direction: column;
     font-size: 20px;
 }
-.header .sub-header{
+
+.header .sub-header {
     color: red;
     font-weight: bolder;
     font-size: 50px;
     font-weight: bolder;
-    font-family:"Segoe UI", Helvetica, Arial, sans-serif;
+    font-family: "Segoe UI", Helvetica, Arial, sans-serif;
 }
-.header .sub-header span{
-    color:red;
+
+.header .sub-header span {
+    color: red;
     font-size: 50px;
     font-weight: bolder;
-    font-family:"Segoe UI", Helvetica, Arial, sans-serif;
+    font-family: "Segoe UI", Helvetica, Arial, sans-serif;
 }
-.header-p{
+
+.header-p {
     text-align: center;
     color: white;
-    font-family:  Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    ;
 }
-.form-container{
+
+.form-container {
     width: 300px;
     background-color: black;
     display: flex;
@@ -61,59 +68,66 @@ body{
     padding-bottom: 5px;
     color: white;
 }
-.form-container input{
-    margin:5px 0;
-    
-    
+
+.form-container input {
+    margin: 5px 0;
 }
-.form-container input[type="text"]{
+
+.form-container input[type="text"] {
     width: 100%;
     background-color: #333;
     color: white;
     height: 40px;
     border-radius: 5px;
 }
-.form-container input[type="number"]{
+
+.form-container input[type="number"] {
     width: 100%;
     background-color: #333;
     color: white;
     height: 40px;
     border-radius: 5px;
 }
-.form-container input[type="email"]{
+
+.form-container input[type="email"] {
     width: 100%;
     background-color: #333;
     color: white;
     height: 40px;
     border-radius: 5px;
 }
-.form-container select{
-    margin:5px 0;
+
+.form-container select {
+    margin: 5px 0;
     width: 100%;
     height: 30px;
     background-color: #333;
     color: white;
     border-radius: 5px;
-
 }
-.form-container textarea{
+
+.form-container textarea {
     width: 100%;
     resize: none;
     margin-bottom: 5px;
 }
-.form-submit{
+
+.form-submit {
     display: flex;
     justify-content: center;
 }
-.form-submit button{
+
+.form-submit button {
     width: 120px;
     height: 30px;
     border-radius: 10px;
     background-color: red;
     color: white;
 }
-.label{
+
+.label {
     margin: 8px 0;
     color: #737373;
-    font-family:  Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    ;
 }
